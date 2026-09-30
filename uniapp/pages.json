@@ -1,0 +1,29 @@
+{
+  "pages": [
+    { "path": "pages/login/login", "style": { "navigationBarTitleText": "登录注册" } },
+    { "path": "pages/home/home", "style": { "navigationBarTitleText": "河湖水质" } },
+    { "path": "pages/detect/detect", "style": { "navigationBarTitleText": "浊度检测" } },
+    { "path": "pages/history/history", "style": { "navigationBarTitleText": "历史记录", "enablePullDownRefresh": true } },
+    { "path": "pages/profile/profile", "style": { "navigationBarTitleText": "我的" } },
+    { "path": "pages/result/result", "style": { "navigationBarTitleText": "检测结果" } },
+    { "path": "pages/history/detail", "style": { "navigationBarTitleText": "记录详情" } }
+  ],
+  "tabBar": {
+    "color": "#64748b",
+    "selectedColor": "#0e7490",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/home/home", "text": "首页", "iconPath": "static/tab/home.png", "selectedIconPath": "static/tab/home-active.png" },
+      { "pagePath": "pages/detect/detect", "text": "检测", "iconPath": "static/tab/detect.png", "selectedIconPath": "static/tab/detect-active.png" },
+      { "pagePath": "pages/history/history", "text": "历史", "iconPath": "static/tab/history.png", "selectedIconPath": "static/tab/history-active.png" },
+      { "pagePath": "pages/profile/profile", "text": "我的", "iconPath": "static/tab/profile.png", "selectedIconPath": "static/tab/profile-active.png" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "河湖水质",
+    "navigationBarBackgroundColor": "#0e7490",
+    "backgroundColor": "#f3f7fb"
+  }
+}

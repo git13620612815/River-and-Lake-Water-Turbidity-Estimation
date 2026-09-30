@@ -1,0 +1,42 @@
+{
+	"name": "河湖水质浊度估算",
+	"appid": "__UNI__WATER01",
+	"description": "基于机器视觉的河湖水质浊度估算",
+	"versionName": "1.0.0",
+	"versionCode": "100",
+	"transformPx": false,
+	"vueVersion": "3",
+	"app-plus": {
+		"usingComponents": true,
+		"nvueStyleCompiler": "uni-app",
+		"compilerVersion": 3,
+		"splashscreen": {
+			"alwaysShowBeforeRender": true,
+			"waiting": true,
+			"autoclose": true,
+			"delay": 0
+		},
+		"modules": {},
+		"distribute": {
+			"android": {
+				"permissions": []
+			},
+			"ios": {},
+			"sdkConfigs": {}
+		}
+	},
+	"mp-weixin": {
+		"appid": "wxb291f71a5795c3da",
+		"setting": {
+			"urlCheck": false,
+			"es6": true,
+			"minified": true,
+			"postcss": true
+		},
+		"usingComponents": true,
+		"lazyCodeLoading": "requiredComponents"
+	},
+	"h5": {
+		"title": "河湖水质浊度估算"
+	}
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+db.sqlite3
+backend/media/
+backend/.venv/
+admin-web/node_modules/
+admin-web/dist/
+backend/ml/data/
+backend/ml/data/
+backend/ml/data_split/
+backend/ml/weights/*.pt
+backend/runs/
+backend/ml/_incoming/
+uniapp/unpackage/
+.DS_Store
